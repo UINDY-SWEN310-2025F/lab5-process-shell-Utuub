@@ -2,7 +2,7 @@
 #include	<signal.h>
 #include	<string.h>
 #include	<unistd.h>
-
+#include    <sys/wait.h>
 #define	MAXARGS		20				/* cmdline args	*/
 #define	ARGLEN		100				/* token length	*/
 
