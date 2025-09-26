@@ -3,8 +3,7 @@
 #include	<string.h>
 #include	<unistd.h>
 #include	<stdlib.h>
-#include     <sys/wait.h>
-#include     <sys/types.h>
+
 #define	MAXARGS		20				/* cmdline args	*/
 #define	ARGLEN		100				/* token length	*/
 
@@ -43,6 +42,8 @@ int execute(char *arglist[]) {
         execvp(arglist[0], arglist);
         fprintf(stderr, "execvp failed for %s\n", arglist[0]);
         exit(1); 
+    } else {
+        wait(NULL); 
     }
     return 0; 
 }
@@ -59,5 +60,3 @@ char * makestring( char *buf ) {
 	strcpy(cp, buf);				/* copy chars	*/
 	return cp;						/* return ptr	*/
 }
-
-
