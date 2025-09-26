@@ -40,7 +40,7 @@ int main() {
 	}
 	return 0;
 }
-
+/**/
 void execute( char *arglist[] )
 /*
  *	use fork and execvp and wait to do it
@@ -67,7 +67,7 @@ void execute( char *arglist[] )
 					exitstatus>>8, exitstatus&0377);
 	}
 }
-
+*/
 
 char *makestring( char *buf )
 /*
