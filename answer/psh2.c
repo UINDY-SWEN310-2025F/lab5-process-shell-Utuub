@@ -11,8 +11,8 @@
 #include	<string.h>
 #include	<unistd.h>
 #include	<stdlib.h>
-#include     <sys/wait.h>
-#include     <sys/types.h>
+#include    <sys/wait.h>
+#include    <sys/types.h>
 
 #define	MAXARGS		20				/* cmdline args	*/
 #define	ARGLEN		100				/* token length	*/
