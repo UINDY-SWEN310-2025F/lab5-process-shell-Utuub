@@ -61,7 +61,7 @@ void execute( char *arglist[] )
 			perror("execvp failed");
 			exit(1);
 		default:
-			while (wait(&exitstatus) != pid);
+			wait(&exitstatus);
 				;
 			printf("child exited with status %d,%d\n",
 					exitstatus>>8, exitstatus&0377);
