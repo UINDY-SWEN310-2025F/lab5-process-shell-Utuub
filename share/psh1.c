@@ -42,9 +42,7 @@ int execute(char *arglist[]) {
         execvp(arglist[0], arglist);
         fprintf(stderr, "execvp failed for %s\n", arglist[0]);
         exit(1); 
-    } else {
-        wait(NULL); 
-    }
+    } 
     return 0; 
 }
 
