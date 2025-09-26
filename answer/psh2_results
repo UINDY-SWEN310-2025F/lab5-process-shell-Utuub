@@ -1,0 +1,84 @@
+Script started on 2025-09-26 13:01:56+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="120" LINES="30"]
+[?2004hsh-5.1# ./psh2
+[?2004l
+Arg[0]? ls
+Arg[1]? -1
+Arg[2]? ?
+Arg[3]? 
+ls: cannot access '?': No such file or directory
+child exited with status 2,0
+Arg[0]? ls
+Arg[1]? -1
+Arg[2]? 
+fork
+fork.c
+myps.sh
+psh1
+psh1.c
+psh2
+psh2.c
+psh2_results
+child exited with status 0,0
+Arg[0]? ^[[A^[[B^[[B^[[A                df
+Arg[1]? -H
+Arg[2]? 
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         1.1T  5.7G  1.1T   1% /
+tmpfs            68M     0   68M   0% /dev
+tmpfs           4.1G     0  4.1G   0% /sys/fs/cgroup
+shm              68M     0   68M   0% /dev/shm
+C:\             510G  123G  388G  24% /home/app
+/dev/sdd        1.1T  5.7G  1.1T   1% /etc/hosts
+tmpfs           4.1G     0  4.1G   0% /proc/acpi
+tmpfs           4.1G     0  4.1G   0% /sys/firmware
+child exited with status 0,0
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h[?2004l
+
+[?2004hsh-5.1# ^C[?2004l
+[?2004h

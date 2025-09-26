@@ -32,10 +32,20 @@ int main() {
 }
 
 // NOTE: use execvp to do it 
-int execute( char *arglist[] ) {
-	//TODO: write your code here 		/* do it */
-	
-	exit(1);
+int execute(char *arglist[]) {
+    pid_t pid = fork(); 
+
+    if (pid < 0) {
+        fprintf(stderr, "Fork failed\n");
+        return 1; 
+    } else if (pid == 0) {
+        execvp(arglist[0], arglist);
+        fprintf(stderr, "execvp failed for %s\n", arglist[0]);
+        exit(1); 
+    } else {
+        wait(NULL); 
+    }
+    return 0; 
 }
 
 // trim off newline and create storage for the string
