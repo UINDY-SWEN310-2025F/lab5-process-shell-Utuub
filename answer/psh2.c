@@ -40,13 +40,11 @@ int main() {
 	}
 	return 0;
 }
-/**/
-void execute( char *arglist[] )
 /*
- *	use fork and execvp and wait to do it
- */
+void execute( char *arglist[] )
+
 {
-	int	pid,exitstatus;						/* of child	*/
+	int	pid,exitstatus;						
 
 	
     pid = fork();
@@ -67,7 +65,7 @@ void execute( char *arglist[] )
 					exitstatus>>8, exitstatus&0377);
 	}
 }
-
+*/
 
 char *makestring( char *buf )
 /*
