@@ -67,7 +67,7 @@ void execute( char *arglist[] )
 					exitstatus>>8, exitstatus&0377);
 	}
 }
-*/
+
 
 char *makestring( char *buf )
 /*
